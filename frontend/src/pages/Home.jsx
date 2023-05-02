@@ -6,6 +6,10 @@ import heroImg02 from "../assets/images/hero-img02.jpg";
 import heroVideo from "../assets/images/hero-video.mp4";
 import Subtitle from "../shared/Subtitle";
 import worldImg from "../assets/images/world.png";
+
+import SearchBar from "../shared/SearchBar";
+import ServiceList from "../services/ServiceList";
+
 const Home = () => {
   return (
     <>
@@ -47,10 +51,24 @@ const Home = () => {
                 <img src={heroImg02} alt="" />
               </div>
             </Col>
+
+            <SearchBar/>
           </Row>
         </Container>
       </section>
       {/* ===============Menu============= */}
+      <section>
+        <Container>
+        <Row>
+        <Col lg='3'>
+            <h5 className="services__subtitle">What we serve</h5>
+            <h2 className="services__title">We offer our best services</h2>
+          </Col>
+          <ServiceList/>
+        </Row>
+         
+        </Container>
+      </section>
     </>
   );
 };
