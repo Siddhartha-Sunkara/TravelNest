@@ -6,9 +6,11 @@ import heroImg02 from "../assets/images/hero-img02.jpg";
 import heroVideo from "../assets/images/hero-video.mp4";
 import Subtitle from "../shared/Subtitle";
 import worldImg from "../assets/images/world.png";
+import experienceImg from "../assets/images/experience.png";
 
 import SearchBar from "../shared/SearchBar";
 import ServiceList from "../services/ServiceList";
+import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 
 const Home = () => {
   return (
@@ -59,16 +61,83 @@ const Home = () => {
       {/* ===============Menu============= */}
       <section>
         <Container>
-        <Row>
-        <Col lg='3'>
-            <h5 className="services__subtitle">What we serve</h5>
-            <h2 className="services__title">We offer our best services</h2>
-          </Col>
-          <ServiceList/>
-        </Row>
-         
+          <Row>
+            <Col lg='3'>
+              <h5 className="services__subtitle">What we serve</h5>
+              <h2 className="services__title">We offer our best services</h2>
+            </Col>
+            <ServiceList/>
+          </Row>
         </Container>
       </section>
+
+      {/* =============== featured tour section start ============= */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12' className="mb-5">
+              <Subtitle subtitle={"Explore"}/>
+              <h2 className="featured__tour-title">Our feautred tours</h2>
+            </Col>
+            <FeaturedTourList/>
+          </Row>
+        </Container>
+      </section>
+      {/* =============== featured tour section end  ============= */}
+      {/* =============== experience section start =============== */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='6'>
+              <div className="experience__content">
+                <Subtitle subtitle={'Experience'}/>
+                <h2>With our all experience <br /> we will serve you</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fugiat, cupiditate, corporis cumque quidem culpa eligendi,
+                  <br /> 
+                  facere obcaecati minima repudiandae rerum ad libero odio deleniti fuga. Molestiae in accusamus esse!
+                  </p>
+              </div>
+
+              <div className="counter__wrapper d-flex aligh-items-center gap-5">
+                <div className="counter__box">
+                  <span>12k+</span>
+                  <h6>Successfull Trip</h6>
+                </div>
+                <div className="counter__box">
+                  <span>2k+</span>
+                  <h6>Regular Clients</h6>
+                </div>
+                <div className="counter__box">
+                  <span>15</span>
+                  <h6>Year experience</h6>
+                </div>
+              </div>
+            </Col>
+            <Col lg="6">
+              <div className="experience__img">
+                <img src={experienceImg} alt="" />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      {/* =============== experience section end =============== */}
+
+
+      {/* =============== gallery section start =============== */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12'>
+              <Subtitle subtitle={'Gallery'}/>
+              <h2 className="gallery_title">
+                Visit our customer tour gallery
+              </h2>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      {/* =============== gallery section end =============== */}
     </>
   );
 };
