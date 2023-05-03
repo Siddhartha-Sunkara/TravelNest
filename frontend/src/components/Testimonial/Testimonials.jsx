@@ -12,14 +12,14 @@ const Testimonials = () => {
         speed: 1000,
         swipeToSlide:true,
         autoplaySpeed:2000,
-        slideToShow:3,
+        slidesToShow:3,
 
         responsive:[
             {
                 breakpoint : 992,
                 settings : {
-                    slideToShow : 2,
-                    slideToScroll:1,
+                    slidesToShow : 2,
+                    slidesToScroll:1,
                     infinite:true,
                     dots:true,
                 
@@ -29,8 +29,8 @@ const Testimonials = () => {
             {
                 breakpoint : 576,
                 settings : {
-                    slideToShow : 1,
-                    slideToScroll:1,
+                    slidesToShow : 1,
+                    slidesToScroll:1,
                     
                 
                 },
@@ -40,6 +40,7 @@ const Testimonials = () => {
     }
   return (
     <Slider {...settings}>
+      
       <div className="testimonial py-4 px-3">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
@@ -65,7 +66,7 @@ const Testimonials = () => {
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mb-0 mt-3">John Doe</h6>
+            <h6 className="mb-0 mt-3">Lia Franklin</h6>
             <p>Customer</p>
           </div>
         </div>
@@ -78,13 +79,35 @@ const Testimonials = () => {
           dolores ullam eum deserunt.
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
-          <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
+          <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
           <div>
             <h6 className="mb-0 mt-3">John Doe</h6>
             <p>Customer</p>
           </div>
         </div>
+      
+      
+
       </div>
+      <div className="testimonial py-4 px-3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          obcaecati suscipit perspiciatis, odio est odit eaque velit
+          voluptatibus adipisci sapiente alias corrupti et iusto doloribus ut
+          dolores ullam eum deserunt.
+        </p>
+        <div className="d-flex align-items-center gap-4 mt-3">
+          <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
+          <div>
+            <h6 className="mb-0 mt-3">Mark Tony</h6>
+            <p>Customer</p>
+          </div>
+        </div>
+      
+      
+
+      </div>
+      
     </Slider>
   );
 };
