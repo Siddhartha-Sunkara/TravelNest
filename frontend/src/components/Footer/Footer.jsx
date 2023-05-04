@@ -44,13 +44,13 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="3">
-            <img src={logo} alt="" />
+            <div className="logo">
+            <img   src={logo} alt="" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Doloremque, voluptatibus quas. Tenetur voluptatibus doloribus ab
-              illum. Maiores delectus eos non quam ad nihil vitae odit,
-              veritatis, deserunt ratione animi eligendi?
+              Doloremque, voluptatibus quas. 
             </p>
+            </div>
             <div className="social__links d-flex aling-items-center gap-4">
               <span>
                 <Link to="# ">
