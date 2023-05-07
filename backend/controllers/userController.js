@@ -20,7 +20,7 @@ export const createUser = async (req, res) => {
             .json({
                 success: false,
                 message: "Failed to create .Try again. ",
-                data: savedUser,
+                
             });
     }
 };
