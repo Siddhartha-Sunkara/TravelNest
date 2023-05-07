@@ -7,15 +7,18 @@ import cookieParser from "cookie-parser";
 import tourRoute from './routes/tours.js'
 import userRoute from './routes/users.js'
 import authRoute from './routes/auth.js'
+import reviewRoute from './routes/reviews.js'
+
+
 
 
 dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 8000;
-const corsOption = {
+const corsOptions = {
     origin:true,
-    Credentials:true
+    credentials:true
 }
 //database connection   
 mongoose.set("strictQuery", false);
@@ -33,13 +36,14 @@ try{
 
 //middleware
 app.use(express.json());
-app.use(cors(corsOption));
+app.use(cors(corsOptions));
 app.use(cookieParser());
 app.use("/api/v1/auth", authRoute);
 app.use("/api/v1/tours", tourRoute);
 app.use("/api/v1/users", userRoute);
+app.use("/api/v1/review", reviewRoute);
 
-app.listen(port, () => {
+app.listen(5000, () => {
     connect();
-    console.log('listening on port', port);
+    console.log('listening on port',5000);
 })
