@@ -71,7 +71,11 @@ export const login = async (req,res) => {
 
 
         // set token in the browser cookies and send the response to the client
+
         res.cookie('accessToken', token, {
+
+       
+
             httpOnly: true,
             expires: token.expiresIn
         })
