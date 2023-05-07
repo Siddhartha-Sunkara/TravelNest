@@ -8,6 +8,7 @@ import tourRoute from './routes/tours.js'
 import userRoute from './routes/users.js'
 import authRoute from './routes/auth.js'
 import reviewRoute from './routes/reviews.js'
+import bookingRoute from './routes/bookings.js'
 
 
 
@@ -42,8 +43,9 @@ app.use("/api/v1/auth", authRoute);
 app.use("/api/v1/tours", tourRoute);
 app.use("/api/v1/users", userRoute);
 app.use("/api/v1/review", reviewRoute);
+app.use("/api/v1/booking", bookingRoute);
 
-app.listen(5000, () => {
+app.listen(port , () => {
     connect();
-    console.log('listening on port',5000);
+    console.log('listening on port',port);
 })
