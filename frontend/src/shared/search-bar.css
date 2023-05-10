@@ -31,11 +31,41 @@
     border-right: 2px solid #ddd;
 }
 
-.search_icon i{
+.search__icon i{
     font-size: 1.6rem;
     padding: 0.5rem;
     background: var(--secondary-color);
     color: #fff;
-    border-radius: 10px 5px 10px 5 px;
+    border-radius: 10px 5px 10px 5px;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 992px){
+    .search__bar{
+        width: 100%;
+        border-radius: 2rem;
+    }
+    .search__bar form{
+        flex-wrap: wrap ;
+    }
+    .search__bar form .form__group {
+        width: 48%;
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+    .search__bar form .form__group {
+        width: 100%;
+}
+    .form__group input{
+        font-size: 0.7rem;
+    }
+    .form__group span i {
+        font-size: 1.1rem;
+    }
+    .form__group input h6{
+        font-size : 1rem;
+    }
 }
