@@ -79,13 +79,13 @@ export const getSingleUser = async (req, res) => {
     const id = req.params.id;
     try {
 
-        const user = await User.findById(id);
+        const User = await User.findById(id);
         res
             .status(200)
             .json({
                 success: true,
                 message: "Successful",
-                data: user
+                data: User
 
             });
     } catch (err) {
@@ -106,13 +106,13 @@ export const getAllUser = async (req, res) => {
 
 
     try {
-        const users = await User.find({})
+        const Users = await User.find({})
 
         res.status(200).json({
             success: true,
             
             message: "Successful",
-            data: users,
+            data: Users,
         })
     } catch (err) {
         res
