@@ -1,13 +1,14 @@
-import React,{useState} from 'react'
+import React,{useState, useContext} from 'react'
 import './booking.css'
 import { Form, FormGroup, ListGroup, ListGroupItem, Button } from 'reactstrap';
 
 import {useNavigate} from "react-router-dom";
-
+import { AuthContext } from '../../context/AuthContext';
+import { BASE_URL } from '../../utils/config';
 
 const Booking = ({ tour, avgRating }) => {
-    const {price, reviews} = tour 
-    const navigate = useNavigate()
+    const {price, reviews} = tour; 
+    const navigate = useNavigate();
 
     const [credentials, setCredentials] = useState({
       userId: '01',
