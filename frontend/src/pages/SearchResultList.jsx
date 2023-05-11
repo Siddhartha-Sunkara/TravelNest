@@ -7,8 +7,7 @@ import Newsletter from "./../shared/Newsletter";
 const SearchResultList = () => {
   const location = useLocation();
 
-  const [ data ] = useState(location.state);
-  console.log(data);
+  const [data] = useState(location.state);
 
   return (
     <>
@@ -20,8 +19,7 @@ const SearchResultList = () => {
               <h4 className="text-center"> No tour found</h4>
             ) : (
               data?.map((tour) => (
-                <Col lg="3" className="mb-4" key = {tour._id}>
-                 
+                <Col lg="3" className="mb-4" key={tour._id}>
                   <TourCard tour={tour} />
                 </Col>
               ))
@@ -29,7 +27,7 @@ const SearchResultList = () => {
           </Row>
         </Container>
       </section>
-      <Newsletter/>
+      <Newsletter />
     </>
   );
 };
