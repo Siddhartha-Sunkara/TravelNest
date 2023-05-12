@@ -47,8 +47,7 @@ const Footer = () => {
             <div className="logo">
             <img   src={logo} alt="" />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Doloremque, voluptatibus quas. 
+            Your ultimate travel companion
             </p>
             </div>
             <div className="social__links d-flex aling-items-center gap-4">
@@ -98,7 +97,7 @@ const Footer = () => {
                   </span>
                   Address:
                 </h6>
-                <p className="mb-0">Sulhet, Bangladesh</p>
+                <p className="mb-0">Delhi,India</p>
               </ListGroupItem>
               <ListGroupItem className=" ps-0 border-0 d-flex align-items-center gap-3">
                 <h6 className="mb-0 d-flex align-item-center gap-2">
