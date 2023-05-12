@@ -34,10 +34,12 @@ const Home = () => {
                   <span className="highlight">memories</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veritatis possimus voluptates in dicta libero velit!
-                  Doloremque maxime veniam iusto, assumenda, perferendis maiores
-                  fugiat facilis vero quasi a natus rem velit!
+                 Are you a travel enthusiast looking for your next adventure?
+                 We know that planning a trip can be overwhelming.
+                 That's why we've created a one-stop-shop for all your Hotel needs
+                 Look no further than TravelNest 
+                 
+                 -Your ultimate travel companion.
                 </p>
               </div>
             </Col>
@@ -96,14 +98,13 @@ const Home = () => {
               <div className="experience__content">
                 <Subtitle subtitle={"Experience"} />
                 <h2>
-                  With our all experience <br /> we will serve you
+                  With our all experience <br /> We will serve you
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                  fugiat, cupiditate, corporis cumque quidem culpa eligendi,
+                We offer a variety of tools and resources to make your travel planning as smooth as possible.
                   <br />
-                  facere obcaecati minima repudiandae rerum ad libero odio
-                  deleniti fuga. Molestiae in accusamus esse!
+                  Our destination guides are comprehensive and provide everything you need to know about a particular location, 
+                  from the best time to visit to the top attractions to see.
                 </p>
               </div>
 

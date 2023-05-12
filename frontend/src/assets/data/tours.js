@@ -51,8 +51,8 @@ const tours = [
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Snowy Mountains, Nepal",
+    city: "Nepal",
     distance: 500,
     address: 'Somewhere' ,
     price: 99,

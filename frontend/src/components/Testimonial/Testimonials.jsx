@@ -43,45 +43,40 @@ const Testimonials = () => {
       
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          obcaecati suscipit perspiciatis, odio est odit eaque velit
-          voluptatibus adipisci sapiente alias corrupti et iusto doloribus ut
-          dolores ullam eum deserunt.
+        I stumbled upon TravelNest while planning a trip to South America and I couldn't be happier with my experience.
+         Their destination guides were incredibly detailed and helpful, and their customer service was top-notch. 
+       
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mb-0 mt-3">John Doe</h6>
+            <h6 className="mb-0 mt-3">Harsh sinha</h6>
             <p>Customer</p>
           </div>
         </div>
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          obcaecati suscipit perspiciatis, odio est odit eaque velit
-          voluptatibus adipisci sapiente alias corrupti et iusto doloribus ut
-          dolores ullam eum deserunt.
+        I've been a member of the TravelNest community for a few months now and I absolutely love it. 
+        It's a great way to connect with other travelers and get insider tips on the best places to go.
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mb-0 mt-3">Lia Franklin</h6>
+            <h6 className="mb-0 mt-3">Maitreyi</h6>
             <p>Customer</p>
           </div>
         </div>
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          obcaecati suscipit perspiciatis, odio est odit eaque velit
-          voluptatibus adipisci sapiente alias corrupti et iusto doloribus ut
-          dolores ullam eum deserunt.
+        I was looking for a travel website that offered customized travel packages and TravelNest delivered. 
+        They were able to tailor a package to my specific needs and budget, and I had an incredible trip as a result. 
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mb-0 mt-3">John Doe</h6>
+            <h6 className="mb-0 mt-3">Vishist ranjan</h6>
             <p>Customer</p>
           </div>
         </div>
@@ -91,15 +86,14 @@ const Testimonials = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          obcaecati suscipit perspiciatis, odio est odit eaque velit
-          voluptatibus adipisci sapiente alias corrupti et iusto doloribus ut
-          dolores ullam eum deserunt.
+        Their website is easy to use and their team is responsive and helpful.
+        I will definitely be using them again for my future 
+        Overall, I had a great experience with TravelNest and would recommend them to anyone looking for a reliable travel resource.
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mb-0 mt-3">Mark Tony</h6>
+            <h6 className="mb-0 mt-3">Om</h6>
             <p>Customer</p>
           </div>
         </div>
