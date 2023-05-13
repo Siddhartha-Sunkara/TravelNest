@@ -89,46 +89,7 @@ const Home = () => {
       {/* =============== featured tour section end  ============= */}
       {/* =============== experience section start =============== */}
       <section>
-        <Container>
-          <Row>
-            <Col lg="6">
-              <div className="experience__content">
-                <Subtitle subtitle={"Experience"} />
-                <h2>
-                  With our all experience <br /> We will serve you
-                </h2>
-                <p>
-                  We offer a variety of tools and resources to make your travel
-                  planning as smooth as possible.
-                  <br />
-                  Our destination guides are comprehensive and provide
-                  everything you need to know about a particular location, from
-                  the best time to visit to the top attractions to see.
-                </p>
-              </div>
-
-              <div className="counter__wrapper d-flex aligh-items-center gap-5">
-                <div className="counter__box">
-                  <span>12k+</span>
-                  <h6>Successfull Trip</h6>
-                </div>
-                <div className="counter__box">
-                  <span>2k+</span>
-                  <h6>Regular Clients</h6>
-                </div>
-                <div className="counter__box">
-                  <span>15</span>
-                  <h6>Year experience</h6>
-                </div>
-              </div>
-            </Col>
-            <Col lg="6">
-              <div className="experience__img">
-                <img src={experienceImg} alt="" />
-              </div>
-            </Col>
-          </Row>
-        </Container>
+        <Container></Container>
       </section>
       {/* =============== experience section end =============== */}
 
