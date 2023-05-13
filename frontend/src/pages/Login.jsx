@@ -75,7 +75,7 @@ const Login = () => {
   };
 
   return (
-    <section>
+    <section className="journey">
       <Container>
         <Row>
           <Col lg="8" className="m-auto">
@@ -114,7 +114,7 @@ const Login = () => {
                     Login
                   </Button>
                 </Form>
-                <div className="mt-4">
+                <div className="mt-4 mx-4">
                   <GoogleOAuthProvider clientId="584594078595-34gia1q8lidamjknttbb10bn22u1k7qp.apps.googleusercontent.com">
                     <GoogleLogin
                       useOneTap={true}
