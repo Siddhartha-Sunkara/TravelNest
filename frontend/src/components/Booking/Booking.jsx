@@ -101,7 +101,7 @@ const Booking = ({ tour, avgRating }) => {
             />
             <input
               type="number"
-              placeholder="Guest"
+              placeholder="Person"
               id="guestSize"
               required
               onChange={handleChange}

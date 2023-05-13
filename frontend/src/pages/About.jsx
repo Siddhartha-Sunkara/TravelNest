@@ -67,10 +67,10 @@ export default function About() {
       <section>
         <div className="container">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            atque consequuntur animi consequatur illo ad cumque magnam
-            recusandae quaerat porro rerum nemo culpa vero a odit voluptate
-            quidem, debitis provident.
+
+          Welcome, where you can get to know the members of our exceptional leadership team. 
+          With their deep insights and decades of unparalleled market expertise, they set us apart from the 
+          competition and help us provide our customers with super-smooth travel booking experiences.
           </p>
           <ul className="leadership">
             <li>
