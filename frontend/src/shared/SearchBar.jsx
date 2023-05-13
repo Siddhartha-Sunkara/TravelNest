@@ -68,7 +68,7 @@ const SearchBar = () => {
               <i className="ri-group-line"></i>
             </span>
             <div>
-              <h6>Max People</h6>
+              <h6>People</h6>
               <input
                 type="number"
                 placeholder="0"
