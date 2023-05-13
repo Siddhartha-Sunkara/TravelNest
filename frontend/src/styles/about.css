@@ -121,6 +121,7 @@ ul {
 
 .imgWrap img {
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .imgWrap:hover {

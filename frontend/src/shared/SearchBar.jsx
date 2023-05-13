@@ -4,7 +4,6 @@ import { Col, Form, FormGroup } from "reactstrap";
 import { BASE_URL } from "./../utils/config";
 import { useNavigate } from "react-router-dom";
 
-
 const SearchBar = () => {
   const locationRef = useRef("");
   const distanceRef = useRef(0);
@@ -56,10 +55,10 @@ const SearchBar = () => {
               <i className="ri-map-pin-time-line"></i>
             </span>
             <div>
-              <h6>Distance</h6>
+              <h6>Radius</h6>
               <input
                 type="number"
-                placeholder="Distance k/m"
+                placeholder="Distance meters"
                 ref={distanceRef}
               ></input>
             </div>
