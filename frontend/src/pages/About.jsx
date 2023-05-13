@@ -1,20 +1,23 @@
 import "../styles/about.css";
 import Member1 from "../assets/images/Member1.png";
-// import Member2 from "../assets/images/Member2.png";
-// import Member3 from "../assets/images/Member3.png";
+import Member2 from "../assets/images/Member2.jpg";
+import Member3 from "../assets/images/Member3.jpg";
+import Member4 from "../assets/images/Member4.jpg";
 
 import { Row, Col } from "reactstrap";
 import Newsletter from "../shared/Newsletter";
 
 export default function About() {
+  window.scrollTo(0, 0);
   return (
     <>
       <section className="heroSection"></section>
       <section className="aboutTravelNest">
         <div className="container">
           <h1>
-            <span className="small">We are</span>
-            <span className="abrilFont">TravelNest</span>
+            <span className=" small">
+              We are <span className="abrilFont">TravelNest</span>
+            </span>
           </h1>
           <p>
             Nurtured from the seed of a single idea ‘to empower the traveller
@@ -55,7 +58,9 @@ export default function About() {
         </div>
       </section>
 
-      <h1 className="model-title">Our Team</h1>
+      <h1 className="model-title">
+        Our <h1 className="Team">Team</h1>
+      </h1>
       <section>
         <div className="container">
           <p>
@@ -66,28 +71,28 @@ export default function About() {
           </p>
           <ul className="leadership">
             <li>
-              <div className="imgWrap">
-                <img src={Member1} alt="" />
+              <div className="imgWrap ">
+                <img src={Member1} alt="Avatar" />
               </div>
               <h4>Siddhartha Sunkara</h4>
             </li>
             <li>
-              <div className="imgWrap">
-                <img src={Member1} alt="" />
+              <div className="imgWrap demo2">
+                <img src={Member3} alt="Avatar" />
               </div>
-              <h4>Siddhartha Sunkara</h4>
+              <h4>Shivansh Mital</h4>
             </li>
             <li>
-              <div className="imgWrap">
-                <img src={Member1} alt="" />
+              <div className="imgWrap demo3">
+                <img src={Member2} alt="Avatar" />
               </div>
-              <h4>Siddhartha Sunkara</h4>
+              <h4>Shivank Goel</h4>
             </li>
             <li>
-              <div className="imgWrap">
-                <img src={Member1} alt="" />
+              <div className="imgWrap demo4">
+                <img src={Member4} alt="Avatar" />
               </div>
-              <h4>Siddhartha Sunkara</h4>
+              <h4>Adarsh Mishra</h4>
             </li>
           </ul>
         </div>
