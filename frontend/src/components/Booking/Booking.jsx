@@ -62,7 +62,7 @@ const Booking = ({ tour, avgRating }) => {
     <div className="booking">
       <div className="booking__top d-flex align-itmes-center justify-content-between">
         <h3>
-          Rs {price} <span>/per person</span>{" "}
+          Rs {price} <span>/per room</span>{" "}
         </h3>
         <span className="tour__rating d-flex align-iteam-center">
           <i className="ri-star-fill"></i>
@@ -101,7 +101,7 @@ const Booking = ({ tour, avgRating }) => {
             />
             <input
               type="number"
-              placeholder="Person"
+              placeholder="Rooms"
               id="guestSize"
               required
               onChange={handleChange}
