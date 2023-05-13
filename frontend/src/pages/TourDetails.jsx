@@ -124,7 +124,7 @@ const TourDetails = () => {
                       <span>
                         <i className="ri-money-dollar-circle-line"></i>Rs{" "}
                         {price}
-                        /per person
+                        /per room
                       </span>
                       <span>
                         <i className="ri-pin-distance-line"></i> {distance}{" "}
@@ -132,7 +132,7 @@ const TourDetails = () => {
                       </span>
                       <span>
                         <i className="ri-group-line"></i>
-                        {maxGroupSize} people
+                        {maxGroupSize} people / per room
                       </span>
                     </div>
                     <h5>Description</h5>
