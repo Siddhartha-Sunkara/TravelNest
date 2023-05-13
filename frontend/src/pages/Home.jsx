@@ -15,7 +15,6 @@ import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGalle
 import Testimonials from "../components/Testimonial/Testimonials";
 import Newsletter from "../shared/Newsletter";
 
-
 const Home = () => {
   return (
     <>
@@ -34,12 +33,10 @@ const Home = () => {
                   <span className="highlight">memories</span>
                 </h1>
                 <p>
-                 Are you a travel enthusiast looking for your next adventure?
-                 We know that planning a trip can be overwhelming.
-                 That's why we've created a one-stop-shop for all your Hotel needs
-                 Look no further than TravelNest 
-                 
-                 -Your ultimate travel companion.
+                  Are you a travel enthusiast looking for your next adventure?
+                  We know that planning a trip can be overwhelming. That's why
+                  we've created a one-stop-shop for all your Hotel needs Look no
+                  further than TravelNest -Your ultimate travel companion.
                 </p>
               </div>
             </Col>
@@ -51,7 +48,7 @@ const Home = () => {
             </Col>
             <Col lg="2">
               <div className="hero__img-box hero__video-box mt-4">
-                <video src={heroVideo} alt="" controls />
+                <video src={heroVideo} alt="" autoPlay loop muted controls />
               </div>
             </Col>
             <Col lg="2">
@@ -83,7 +80,7 @@ const Home = () => {
           <Row>
             <Col lg="12" className="mb-5">
               <Subtitle subtitle={"Explore"} />
-              <h2 className="featured__tour-title">Our feautred Hotels</h2>
+              <h2 className="featured__tour-title">Our featured Hotels</h2>
             </Col>
             <FeaturedTourList />
           </Row>
@@ -101,10 +98,12 @@ const Home = () => {
                   With our all experience <br /> We will serve you
                 </h2>
                 <p>
-                We offer a variety of tools and resources to make your travel planning as smooth as possible.
+                  We offer a variety of tools and resources to make your travel
+                  planning as smooth as possible.
                   <br />
-                  Our destination guides are comprehensive and provide everything you need to know about a particular location, 
-                  from the best time to visit to the top attractions to see.
+                  Our destination guides are comprehensive and provide
+                  everything you need to know about a particular location, from
+                  the best time to visit to the top attractions to see.
                 </p>
               </div>
 
@@ -149,25 +148,24 @@ const Home = () => {
       </section>
       {/* =============== gallery section end =============== */}
       {/* =============== Testimonial section start =============== */}
-    <section>
-      <Container>
-        <Row>
-          <Col lg='12'>
-            <Subtitle subtitle={'Fans Love'}/>
-            <h2 className="testimonial__title">What our users say about us</h2>
-          </Col>
-          <Col lg='12'>
-            <Testimonials />
-          </Col>
-        </Row>
-      </Container>
-    </section>
-
-
-
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12">
+              <Subtitle subtitle={"Fans Love"} />
+              <h2 className="testimonial__title">
+                What our users say about us
+              </h2>
+            </Col>
+            <Col lg="12">
+              <Testimonials />
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
       {/* =============== Testimonial section end =============== */}
-      <Newsletter/>
+      <Newsletter />
     </>
   );
 };

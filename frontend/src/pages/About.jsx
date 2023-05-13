@@ -20,40 +20,43 @@ export default function About() {
             </span>
           </h1>
           <p>
-            Nurtured from the seed of a single idea ‘to empower the traveller
-            with easy & instant travel bookings providing comprehensive
-            choices’, MakeMyTrip is a pioneer in India’s online travel space.
-            Founded by Deep Kalra in the year 2000, MakeMyTrip began its journey
-            by serving the US-India travel market with best-value products &
-            services, powered by robust technology and round-the-clock customer
-            support.
+            TravelNest is a leading website dedicated to hotel booking around
+            India, offering travelers a seamless and convenient experience when
+            planning their accommodation. With the motto "Stay with Us,"
+            TravelNest aims to provide a comfortable and memorable stay for all
+            its customers.
             <br />
             <br />
-            After successfully consolidating its position as a customer-first
-            brand, known for its reliability and transparency, MakeMyTrip
-            launched its India operations in 2005.
+            With an extensive network of hotels and resorts across the country,
+            TravelNest ensures that travelers have access to a wide range of
+            options that suit their preferences and budget. From luxurious
+            five-star hotels to cozy budget accommodations, TravelNest caters to
+            every traveler's needs. The website features a user-friendly
+            interface that allows users to easily search, compare, and book
+            their desired accommodations within a few clicks.
             <br />
             <br />
-            As low-cost flight carriers were introduced in India, the number of
-            Indians opting for online travel solutions also increased rapidly.
-            And MakeMyTrip answered the call of the hour, by bringing the
-            convenience of booking flights, hotels, and holiday packages in just
-            a few clicks.
+            TravelNest goes the extra mile to ensure customer satisfaction by
+            offering detailed descriptions, high-quality images, and honest
+            reviews of each hotel. This empowers travelers to make informed
+            decisions and choose the perfect place to stay. Additionally, the
+            website provides personalized recommendations based on user
+            preferences, making the booking process even more tailored to
+            individual needs.
             <br />
             <br />
-            Over the years, we have partnered with many leading brands from the
-            aviation & hospitality industries, creating fruitful partner
-            relations for business expansion opportunities. We also entered the
-            homestays & villas and continue to procure increased market share
-            market in the same. With this, we also entered the ground transport
-            space and commenced offering cab, bus & train booking services.
+            Whether travelers are exploring the vibrant streets of Delhi, the
+            serene backwaters of Kerala, or the majestic landscapes of
+            Rajasthan, TravelNest is their go-to platform for finding the ideal
+            accommodation. The website also offers competitive prices and
+            exclusive deals, ensuring that travelers get the best value for
+            their money.
             <br />
             <br />
-            What makes our story even stronger is the performance of our newly
-            launched segments, like myBiz—our comprehensive business travel
-            suite and myPartner—an exclusive platform for travel agents.
-            Entering the Gulf market is our latest feat, where we offer
-            power-packed deals on flights & hotels.
+            With TravelNest, travelers can book their stay in India with
+            confidence, knowing that they will be welcomed with warm hospitality
+            and exceptional service. Experience the beauty of India and create
+            unforgettable memories by staying with TravelNest.
           </p>
         </div>
       </section>

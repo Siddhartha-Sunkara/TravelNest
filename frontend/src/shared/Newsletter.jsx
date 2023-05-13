@@ -12,20 +12,20 @@ const Newsletter = () => {
           <Col lg="6">
             <div className="newsletter__content">
               <h2>Subscribe to get useful traveling information.</h2>
-              <div className="newsletter__input">
+              {/* <div className="newsletter__input">
                 <input type="email" placeholder="Enter your email" />
                 <button className="btn newsletter__btn">Subscribe</button>
-              </div>
+              </div> */}
               <p>
-              Don't miss out on the latest travel news and tips - subscribe to our newsletter today!
-               By signing up, you'll receive regular updates on the best travel destinations
-               
+                Don't miss out on the latest travel news and tips - subscribe to
+                our newsletter today! By signing up, you'll receive regular
+                updates on the best travel destinations
               </p>
             </div>
           </Col>
-          <Col lg='6'>
+          <Col lg="6">
             <div className="newsletter__img">
-                <img src={maleTourist} alt="" />
+              <img src={maleTourist} alt="" />
             </div>
           </Col>
         </Row>
