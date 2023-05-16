@@ -101,7 +101,7 @@ const TourDetails = () => {
                       >
                         <i
                           className="ri-star-fill"
-                          style={{ color: "var(--secondary-color)" }}
+                          style={{ color: "#D989B5" }}
                         ></i>
                         {avgRating === 0 ? null : avgRating}
                         {totalRating === 0 ? (

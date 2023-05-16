@@ -47,12 +47,12 @@ const Home = () => {
               </div>
             </Col>
             <Col lg="2">
-              <div className="hero__img-box hero__video-box mt-4">
+              <div className="hero__img-box hero__video-box ">
                 <video src={heroVideo} alt="" autoPlay loop muted controls />
               </div>
             </Col>
             <Col lg="2">
-              <div className="hero__img-box mt-5">
+              <div className="hero__img-box ">
                 <img src={heroImg02} alt="" />
               </div>
             </Col>
